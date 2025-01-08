@@ -33,7 +33,7 @@ export default class GameScene extends Phaser.Scene {
       this.countText.setText(`クリック回数: ${this.clickCount}`)
 
       if (this.clickCount >= 10) {
-        this.countText.setText('クリア！おめでとう！')
+        this.countText.setText('クリア！')
         this.button.setFillStyle(0xff0000)
         this.buttonText.setText('完了')
         this.button.disableInteractive()
